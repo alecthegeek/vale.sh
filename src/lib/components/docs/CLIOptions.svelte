@@ -91,6 +91,13 @@
 			description: 'Do not wrap output.'
 		},
 		{
+			name: '--no-global',
+			params: 'N/A',
+			type: 'flag',
+			usage: `$ vale --no-global README.md`,
+			description: 'Do not load the global configuration.'
+		},
+		{
 			name: '--output',
 			params: 'JSON|line|path',
 			type: 'flag',
