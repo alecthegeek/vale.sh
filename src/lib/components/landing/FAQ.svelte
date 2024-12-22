@@ -2,13 +2,13 @@
 	import * as Accordion from '$lib/components/ui/accordion';
 </script>
 
-<div class="px-6 py-5 sm:px-6 lg:px-8">
+<div class="px-6 py-5 pt-14 sm:px-6 lg:px-8">
 	<div class="mx-auto max-w-2xl sm:text-center">
 		<h2 class="text-base/7 font-semibold text-lime-500">Built for you</h2>
 		<h2 class="text-balance text-4xl font-semibold tracking-tight sm:text-5xl">
 			private, open source, and customizable.
 		</h2>
-		<p class="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-neutral-400">
+		<p class="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-neutral-500">
 			Vale runs entirely <b>offline</b>&mdash;ensuring that your content is never sent to a remote
 			server for processing or training purposes.
 		</p>

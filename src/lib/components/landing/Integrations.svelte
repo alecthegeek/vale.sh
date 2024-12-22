@@ -2,13 +2,13 @@
 	import { mode } from 'mode-watcher';
 </script>
 
-<div class="mx-auto max-w-7xl px-6 lg:px-8">
+<div class="mx-auto max-w-7xl px-6 pt-7 lg:px-8">
 	<div class="mx-auto max-w-2xl sm:text-center">
 		<h2 class="text-base/7 font-semibold text-lime-500">One tool, every app</h2>
 		<p class="mt-2 text-pretty text-4xl font-semibold tracking-tight sm:text-balance sm:text-5xl">
 			More than just a command-line interface.
 		</p>
-		<p class="mt-6 text-lg/8 text-neutral-400">
+		<p class="mt-6 text-lg/8 text-neutral-500">
 			Vale intergrates with many popular apps, browers, and platforms&mdash;including VS Code,
 			Google Chrome, GitHub Actions, and more.
 		</p>

@@ -17,7 +17,7 @@
 		<h2 class="text-balance text-4xl font-semibold tracking-tight sm:text-5xl">
 			Your style, our editor
 		</h2>
-		<p class="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-neutral-400">
+		<p class="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-neutral-500">
 			Vale is an open-source, command-line tool that brings your editorial style guide to life.
 		</p>
 		<div class="mt-10 flex items-center justify-center gap-x-6">

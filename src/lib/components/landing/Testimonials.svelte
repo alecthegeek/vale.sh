@@ -17,14 +17,14 @@
 	});
 </script>
 
-<div class="py-4">
+<div class="pt-14">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-2xl sm:text-center">
 			<h2 class="text-base/7 font-semibold text-lime-500">Used around the world</h2>
 			<p class="mt-2 text-pretty text-4xl font-semibold tracking-tight sm:text-balance sm:text-5xl">
 				Powering collaboration and consistency across industries.
 			</p>
-			<p class="mt-6 text-lg/8 text-neutral-400">
+			<p class="mt-6 text-lg/8 text-neutral-500">
 				Vale is trusted by thousands of writers, editors, and developers across the globe. <i
 					>Click on a logo below to learn more.</i
 				>
