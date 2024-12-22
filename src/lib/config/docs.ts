@@ -349,6 +349,12 @@ export const docsConfig: DocsConfig = {
                     items: [],
                 },
                 {
+                    title: "Qt Creator",
+                    href: "https://wiki.qt.io/Setting_Up_Vale",
+                    external: true,
+                    items: [],
+                },
+                {
                     title: "Zed",
                     href: "https://github.com/koozz/zed-vale",
                     external: true,
