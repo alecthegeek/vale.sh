@@ -1,6 +1,8 @@
 import { escapeSvelte } from 'mdsvex';
 import { createHighlighter } from 'shiki';
 import { h } from "hastscript";
+import rehypeSlug from 'rehype-slug'
+import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 
 const themes = [
     'github-light',
@@ -150,6 +152,16 @@ const highlighter = await createHighlighter({
 /** @type {import('mdsvex').MdsvexOptions} */
 const mdsvexOptions = {
     extensions: ['.md'],
+    smartypants: { 'dashes': 'oldschool' },
+    rehypePlugins: [
+        rehypeSlug,
+        [
+            rehypeAutolinkHeadings, {
+                behavior: 'wrap',
+                properties: { className: 'anchor' },
+            }
+        ],
+    ],
     highlight: {
         highlighter: async (code, lang = 'text') => {
             const html = escapeSvelte(highlighter.codeToHtml(code, {
