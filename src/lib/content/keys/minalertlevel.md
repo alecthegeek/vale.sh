@@ -16,7 +16,7 @@ will report. The supported levels are `suggestion` (default), `warning`, and
 `error`.
 
 `error`-level alerts will result in a [non-zero exit code][1], while
-`warning`- and `suggestion`-level alerts will not. This is useful for controlling 
+`warning`- and `suggestion`-level alerts will not. This is useful for controlling
 which rules will fail CI builds.
 
 ## Overriding
@@ -43,4 +43,4 @@ BasedOnStyles = Vale
 Vale.Spelling = warning
 ```
 
-[1]: /docs/cli
+[1]: /docs/cli#return-codes
