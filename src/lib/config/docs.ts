@@ -304,7 +304,7 @@ export const docsConfig: DocsConfig = {
                 },
                 {
                     title: "Git Hooks",
-                    href: "https://pre-commit.com",
+                    href: "/docs/integrations/pre-commit",
                     external: true,
                     items: [],
                 },
