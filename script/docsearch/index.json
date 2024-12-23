@@ -3,9 +3,7 @@
     "start_urls": [
         "https://vale.sh/docs"
     ],
-    "stop_urls": [
-        ".*(?<!/)$"
-    ],
+    "stop_urls": [],
     "strip_chars": "#›",
     "selectors": {
         "default": {
