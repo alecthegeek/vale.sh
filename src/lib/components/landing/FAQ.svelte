@@ -6,7 +6,7 @@
 	<div class="mx-auto max-w-2xl sm:text-center">
 		<h2 class="text-base/7 font-semibold text-lime-500">Built for you</h2>
 		<h2 class="text-balance text-4xl font-semibold tracking-tight sm:text-5xl">
-			private, open source, and customizable.
+			Private, open source, and customizable.
 		</h2>
 		<p class="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-neutral-500">
 			Vale runs entirely <b>offline</b>&mdash;ensuring that your content is never sent to a remote

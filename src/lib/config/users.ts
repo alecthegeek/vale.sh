@@ -32,13 +32,13 @@ export const userConfigs: UserConfig[] = [
     },
     {
         name: "GitLab",
-        source: "https://docs.gitlab.com/ee/development/documentation/testing.html#vale",
+        source: "https://docs.gitlab.com/ee/development/documentation/testing/vale.html",
         website: "https://gitlab.com",
         info: "The most comprehensive AI-powered DevSecOps Platform.",
     },
     {
         name: "Grafana Labs",
-        source: "https://github.com/grafana/k6-docs/blob/main/.vale.ini",
+        source: "https://grafana.com/docs/writers-toolkit/review/lint-prose",
         website: "https://grafana.com",
         info: "Grafana Labs is behind leading open source projects Grafana and Loki, and the creator of the first open & composable observability platform.",
     },
