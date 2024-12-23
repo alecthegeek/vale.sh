@@ -1,4 +1,4 @@
-<section class="prose mt-6 dark:prose-invert" id="markdown">
+<section class="docs-content prose mt-6 dark:prose-invert" id="markdown">
 	<slot />
 </section>
 
