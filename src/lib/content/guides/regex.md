@@ -67,6 +67,50 @@ text. This can be a helpful way to debug your regex patterns.
 
 ![Vale Studio](/media/studio.png)
 
+## Common Issues
+
+### Word Boundaries
+
+In regex, `\b` is a word boundary assertion that matches the position between a
+word character and a non-word character.
+
+For example, the regex `\bfoo\b` will only match the word "foo" and not
+"foobar" or "foo-bar".
+
+By default, [`existence`](/docs/ext/existence) and
+[`substitution`](/docs/ext/substitution) rules in Vale will automatically add
+word boundaries to the beginning and end of each token.
+
+To disable this behavior, set `nonword` to `true`:
+
+```yaml
+extends: existence
+message: Consider removing '%s'
+nonword: true
+tokens:
+  - some token
+```
+
+### Scoping
+
+For markup-based rules, Vale converts each document to HTML and applies a
+[scoping](/docs/scopes) system before running any rules.
+
+This means that if you're writing a rule that targets markup syntax or needs to
+match across block boundaries, the results may be different from what you
+expect.
+
+If you like to apply a rule to the entire, unprocessed document, you can use
+`scope: raw`:
+
+```yaml
+extends: existence
+message: Consider removing '%s'
+scope: raw
+tokens:
+  - some token
+```
+
 [1]: https://github.com/dlclark/regexp2
 [2]: https://pkg.go.dev/regexp/syntax
 [3]: https://yaml.org/
