@@ -305,11 +305,13 @@ export const docsConfig: DocsConfig = {
                 {
                     title: "Git Hooks",
                     href: "/docs/integrations/pre-commit",
+                    external: false,
                     items: [],
                 },
                 {
                     title: "JetBrains",
                     href: "/docs/integrations/jetbrains",
+                    external: false,
                     items: [],
                 },
                 {
