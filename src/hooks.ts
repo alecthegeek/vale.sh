@@ -45,9 +45,11 @@ const migrated: Record<string, string> = {
 };
 
 export const handle: Handle = async ({ event, resolve }) => {
-    if (event.url.pathname in migrated) {
+    const { pathname, search, hash } = new URL(event.request.url);
+
+    if (pathname in migrated) {
         throw redirect(301, migrated[event.url.pathname]);
     }
-    const response = await resolve(event);
-    return response;
+
+    return resolve(event);
 };
