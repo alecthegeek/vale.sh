@@ -62,6 +62,8 @@
     },
     "dependencies": {
         "@algolia/autocomplete-js": "^1.17.7",
+        "@docsearch/css": "3",
+        "@docsearch/js": "3",
         "@rehype-pretty/transformers": "^0.13.2",
         "@sveltejs/adapter-netlify": "^4.3.6",
         "hastscript": "^9.0.0",
