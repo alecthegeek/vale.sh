@@ -86,8 +86,8 @@ In both static and dynamic cases, any application that uses the
 [Vale Language Server][5] will be able to provide the user with a list of
 "Quick Fixes" that can be applied to the document.
 
-[1]: /docs/actions/suggest
-[2]: /docs/actions/replace
-[3]: /docs/actions/remove
-[4]: /docs/actions/edit
+[1]: /docs/fixers/suggest
+[2]: /docs/fixers/replace
+[3]: /docs/fixers/remove
+[4]: /docs/fixers/edit
 [5]: /docs/guides/lsp

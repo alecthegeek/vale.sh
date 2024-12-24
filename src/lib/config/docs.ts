@@ -221,22 +221,22 @@ export const docsConfig: DocsConfig = {
             items: [
                 {
                     title: "suggest",
-                    href: "/docs/actions/suggest",
+                    href: "/docs/fixers/suggest",
                     items: [],
                 },
                 {
                     title: "replace",
-                    href: "/docs/actions/replace",
+                    href: "/docs/fixers/replace",
                     items: [],
                 },
                 {
                     title: "remove",
-                    href: "/docs/actions/remove",
+                    href: "/docs/fixers/remove",
                     items: [],
                 },
                 {
                     title: "edit",
-                    href: "/docs/actions/edit",
+                    href: "/docs/fixers/edit",
                     items: [],
                 },
             ],
