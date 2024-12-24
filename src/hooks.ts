@@ -5,6 +5,8 @@ const migrated: Record<string, string> = {
     // Package Hub is now combined with the Explorer:
     '/hub': '/explorer',
 
+    '/docs/vale-cli': '/docs',
+
     '/docs/vale-cli/installation': '/docs/install',
     '/docs/vale-cli/structure': '/docs/vale-ini',
 
@@ -54,9 +56,6 @@ export const handle: Handle = async ({ event, resolve }) => {
 
     if (given in migrated) {
         throw redirect(301, migrated[given]);
-    } else if (given !== pathname) {
-        // TODO: Why does a trailing slash cause CSS to break?
-        throw redirect(301, given + search + hash);
     }
 
     return resolve(event);
