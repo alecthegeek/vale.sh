@@ -154,7 +154,7 @@ This will provide a more traditional spell-checking experience.
 ## Relation to ignore files
 
 The functionality of vocabularies is similar to the existing concept of
-[_ignore_ files](/docs/).
+[_ignore_ files](/docs/ext/spelling#ignore-files).
 
 The major differences are that vocabularies apply to multiple extension points
 (rather than just `spelling`), support regular expressions, and have built-in
