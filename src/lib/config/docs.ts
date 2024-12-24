@@ -64,8 +64,8 @@ export const docsConfig: DocsConfig = {
                     items: [],
                 },
                 {
-                    title: "Fixes",
-                    href: "/docs/fixes",
+                    title: "Actions",
+                    href: "/docs/actions",
                     items: [],
                 },
                 {
@@ -217,7 +217,7 @@ export const docsConfig: DocsConfig = {
             ],
         },
         {
-            title: "Actions",
+            title: "Fixers",
             items: [
                 {
                     title: "suggest",

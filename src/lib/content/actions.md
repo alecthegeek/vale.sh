@@ -1,6 +1,6 @@
 ---
-title: Fixes
-description: Create dynamic suggestions for your custom rules with Actions.
+title: Actions
+description: Create dynamic suggestions for your rules with Actions.
 ---
 
 <script lang="ts">
