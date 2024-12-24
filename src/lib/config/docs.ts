@@ -81,7 +81,7 @@ export const docsConfig: DocsConfig = {
             ],
         },
         {
-            title: "Settings",
+            title: "Keys",
             items: [
                 {
                     title: "StylesPath",
