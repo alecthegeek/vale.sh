@@ -99,7 +99,13 @@ export async function getDoc(slug: string) {
         error(404);
     }
 
+    let folder = slug.replace("/docs/", "");
+    if (folder === doc.metadata.title) {
+        folder = "Topics";
+    }
+
     return {
+        section: folder,
         component: doc.default,
         metadata: doc.metadata,
         title: doc.metadata.title,
