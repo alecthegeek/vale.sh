@@ -1,5 +1,4 @@
 <script lang="ts">
-	import '@docsearch/css';
 	import docsearch from '@docsearch/js';
 	import { onMount } from 'svelte';
 

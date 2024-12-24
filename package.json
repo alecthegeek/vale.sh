@@ -66,6 +66,7 @@
         "@docsearch/js": "3",
         "@rehype-pretty/transformers": "^0.13.2",
         "@sveltejs/adapter-netlify": "^4.3.6",
+        "algoliasearch": "5.18.0",
         "hastscript": "^9.0.0",
         "micromark": "^4.0.1",
         "micromark-extension-gfm": "^3.0.0",

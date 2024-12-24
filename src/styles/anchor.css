@@ -1,0 +1,23 @@
+.prose .anchor {
+    text-decoration: none;
+}
+
+.prose .anchor::after {
+    content: '#';
+    color: #999;
+    margin-left: 0.25rem;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.prose h2:hover .anchor::after,
+.prose h3:hover .anchor::after,
+.prose h4:hover .anchor::after,
+.prose h5:hover .anchor::after,
+.prose h6:hover .anchor::after {
+    opacity: 1;
+}
+
+.prose .anchor .dark & {
+    color: #fff;
+}

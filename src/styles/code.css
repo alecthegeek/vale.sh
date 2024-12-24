@@ -1,0 +1,95 @@
+html.dark .shiki,
+html.dark .shiki span {
+    color: var(--shiki-dark) !important;
+    background-color: var(--shiki-dark-bg) !important;
+    /* Optional, if you also want font styles */
+    font-style: var(--shiki-dark-font-style) !important;
+    font-weight: var(--shiki-dark-font-weight) !important;
+    text-decoration: var(--shiki-dark-text-decoration) !important;
+}
+
+pre {
+    border: 1px solid #eaeaea;
+}
+
+html.dark pre {
+    border: 1px solid #333;
+}
+
+.prose :where(pre):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+    color: var(--tw-prose-pre-code);
+    background-color: var(--tw-prose-pre-bg);
+    overflow-x: auto;
+    font-weight: 400;
+    font-size: 0.875em;
+    line-height: 1.7142857;
+    margin-top: 1.7142857em;
+    margin-bottom: 1.7142857em;
+    border-radius: 0.375rem;
+
+    /*padding-top: 0;*/
+    padding-inline-end: 1.1428571em;
+    padding-bottom: 0.8571429em;
+    padding-inline-start: 1.1428571em;
+}
+
+pre {
+    & .pre-header {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        left: 0px;
+        position: sticky;
+        top: 0px;
+        width: 100%;
+
+        & .pre-title {
+            background-color: var(--code-block-background-color);
+            border-radius: var(--code-block-border-radius);
+            font-size: var(--code-block-font-size);
+            line-height: 1rem;
+            min-width: 100%;
+            padding: calc(16px * 0.5) calc(16px * 1);
+            text-align: center;
+            width: max-content;
+        }
+
+        & .wrapper-copy-code {
+            align-items: center;
+            flex-direction: row;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            border-bottom: 1px solid #e5e7eb;
+            margin-bottom: 0.5em;
+
+            & .copy-code {
+                background-color: transparent;
+                border: none;
+                border-radius: var(--code-block-border-radius);
+                color: var(--code-block-font-color);
+                font-family: monospace;
+                font-size: var(--code-block-font-size);
+                line-height: 1rem;
+                margin-top: calc(16px * 0.25);
+                margin-bottom: calc(16px * 0.25);
+                padding-top: calc(16px * 0.5) calc(16px * 1);
+                padding-bottom: calc(16px * 0.5) calc(16px * 1);
+            }
+
+            & .code-block-title {
+                /* muted text color */
+                color: #999;
+            }
+        }
+
+        html.dark & .wrapper-copy-code {
+            border-bottom: 1px solid #333;
+        }
+
+        html.dark & .code-block-title {
+            color: #555;
+        }
+    }
+}
