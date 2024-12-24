@@ -54,6 +54,9 @@ export const handle: Handle = async ({ event, resolve }) => {
 
     if (given in migrated) {
         throw redirect(301, migrated[given]);
+    } else if (given !== pathname) {
+        // TODO: Why does a trailing slash cause CSS to break?
+        throw redirect(301, given + search + hash);
     }
 
     return resolve(event);
