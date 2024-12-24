@@ -105,7 +105,7 @@ export async function getDoc(slug: string) {
 
     let folder = capitalize(slug.replace("/docs/", ""));
 
-    if (folder === doc.metadata.title || folder == "vale.ini") {
+    if (folder === doc.metadata.title || folder == "Vale.ini") {
         folder = "Topics";
     } else {
         folder = folder.split("/")[0]
