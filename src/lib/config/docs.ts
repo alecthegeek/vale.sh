@@ -300,7 +300,7 @@ export const docsConfig: DocsConfig = {
                     items: [],
                 },
                 {
-                    title: "Globs",
+                    title: "Globbing",
                     href: "/docs/guides/glob",
                     items: [],
                 },
