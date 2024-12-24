@@ -100,7 +100,7 @@ export async function getDoc(slug: string) {
     }
 
     let folder = slug.replace("/docs/", "");
-    if (folder === doc.metadata.title) {
+    if (folder === doc.metadata.title.toLowerCase()) {
         folder = "Topics";
     }
 
