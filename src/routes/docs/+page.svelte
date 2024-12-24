@@ -41,7 +41,7 @@
 		<div class="mb-4 flex items-center space-x-1 text-sm text-muted-foreground">
 			<div class="overflow-hidden text-ellipsis whitespace-nowrap">Docs</div>
 			<ChevronRight class="h-4 w-4" />
-			<div id="section-name" class="overflow-hidden text-ellipsis whitespace-nowrap">
+			<div class="section-name overflow-hidden text-ellipsis whitespace-nowrap">
 				{data.section}
 			</div>
 			<ChevronRight class="h-4 w-4" />
