@@ -19,7 +19,7 @@
 			<ChevronRight class="h-4 w-4" />
 			<div class="font-medium text-foreground">{doc.title}</div>
 		</div>
-		<div class="space-y-2">
+		<div class="docs-header space-y-2">
 			<h1 class={cn('scroll-m-20 text-4xl font-bold tracking-tight')}>
 				{doc.title}
 			</h1>
