@@ -176,3 +176,6 @@ that you'll also have some local components as well.
 
 The above example ignores the entire `.github/styles/` folder _except_ for
 `.github/styles/config/vocabularies/Base` (which we want to track changes for).
+
+[1]: https://github.com/errata-ai/write-good
+[2]: https://github.com/errata-ai/Hugo
