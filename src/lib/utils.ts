@@ -90,6 +90,10 @@ function findMatch(slug: string, modules: Modules) {
     return match;
 }
 
+function capitalize(val) {
+    return String(val).charAt(0).toUpperCase() + String(val).slice(1);
+}
+
 export async function getDoc(slug: string) {
     const modules = import.meta.glob(`$lib/content/**/*.md`);
     const match = findMatch(slug, modules);
@@ -99,8 +103,8 @@ export async function getDoc(slug: string) {
         error(404);
     }
 
-    let folder = slug.replace("/docs/", "");
-    if (folder === doc.metadata.title.toLowerCase()) {
+    let folder = capitalize(slug.replace("/docs/", ""));
+    if (folder === doc.metadata.title) {
         folder = "Topics";
     }
 
