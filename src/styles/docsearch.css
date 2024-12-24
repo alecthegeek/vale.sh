@@ -131,6 +131,10 @@
     .DocSearch-Button-Placeholder {
         display: none;
     }
+
+    .DocSearch-Footer {
+        display: none !important;
+    }
 }
 
 .DocSearch--active {
