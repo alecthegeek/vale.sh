@@ -7,7 +7,7 @@
     "strip_chars": "#›",
     "selectors": {
         "default": {
-            "lvl0": ".doc-header h1",
+            "lvl0": ".docs-header h1",
             "lvl1": ".docs-content h2",
             "lvl2": ".docs-content h3",
             "lvl3": ".docs-content h4",
