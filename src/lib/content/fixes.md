@@ -1,5 +1,5 @@
 ---
-title: Solutions
+title: Fixes
 description: Create dynamic suggestions for your custom rules with Actions.
 ---
 
