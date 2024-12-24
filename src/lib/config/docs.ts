@@ -279,6 +279,11 @@ export const docsConfig: DocsConfig = {
                     href: "/docs/formats/dita",
                     items: [],
                 },
+                {
+                    title: "Code",
+                    href: "/docs/formats/code",
+                    items: [],
+                },
             ],
         },
         {
