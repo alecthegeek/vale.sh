@@ -4,8 +4,9 @@
 [lL]ookahead
 [lL]ookarounds?
 [lL]ookbehind
-[sS]uperset
 [pP]assthroughs?
+[sS]uperset
+Algolia
 Asciidoctor
 Grammarly
 Grazie
