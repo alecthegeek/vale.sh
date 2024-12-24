@@ -83,7 +83,7 @@ the matched text.
 ## LSP
 
 In both static and dynamic cases, any application that uses the
-[Vale Language Server][4] will be able to provide the user with a list of
+[Vale Language Server][5] will be able to provide the user with a list of
 "Quick Fixes" that can be applied to the document.
 
 [1]: /docs/actions/suggest
