@@ -102,13 +102,12 @@ export async function getDoc(slug: string) {
     if (!doc || !doc.metadata) {
         error(404);
     }
+    const isRootPath = !slug.replace("/docs/", "").includes("/");
 
-    let folder = capitalize(slug.replace("/docs/", ""));
-
-    if (folder === doc.metadata.title || folder == "Vale.ini") {
-        folder = "Topics";
-    } else {
-        folder = folder.split("/")[0]
+    let folder = "Topics";
+    if (!isRootPath) {
+        let name = capitalize(slug.replace("/docs/", ""));
+        folder = name.split("/")[0]
     }
 
     return {

@@ -16,7 +16,7 @@
 	<Table.Body>
 		{#each checks as check}
 			<Table.Row>
-				<Table.Cell><a href="/docs/ext/{check.title}">{check.title}</a></Table.Cell>
+				<Table.Cell><a href="/docs/checks/{check.title}">{check.title}</a></Table.Cell>
 				<Table.Cell>{check.info}</Table.Cell>
 			</Table.Row>
 		{/each}

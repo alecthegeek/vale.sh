@@ -16,7 +16,7 @@
 			default: 'N/A',
 			info: 'extends: existence',
 			description:
-				'The name of the check to extend in the particular rule. See <a class="underline" href="/docs/ext/existence">Rules</a> for more information.'
+				'The name of the check to extend in the particular rule. See <a class="underline" href="/docs/checks/existence">Rules</a> for more information.'
 		},
 		{
 			name: 'message',

@@ -23,7 +23,7 @@
 			type: 'command',
 			usage: `$ vale ls-metrics path/to/file`,
 			description:
-				'Print the computed metrics for the given file. See <a class="underline" href="/docs/ext/metric">metric</a> for more information.'
+				'Print the computed metrics for the given file. See <a class="underline" href="/docs/checks/metric">metric</a> for more information.'
 		},
 		{
 			name: 'ls-dirs',

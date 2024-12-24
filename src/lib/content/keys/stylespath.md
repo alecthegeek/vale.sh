@@ -65,8 +65,8 @@ The `config` directory is used internally by Vale and contains the following:
 | [`scripts`][6]      | Tengo scripts.                             |
 
 [1]: /docs/keys/vocab
-[2]: /docs/ext/spelling
+[2]: /docs/checks/spelling
 [3]: /docs/templates
 [4]: /docs/actions
 [5]: /docs/filters
-[6]: /docs/ext/script
+[6]: /docs/checks/script

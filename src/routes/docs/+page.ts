@@ -9,6 +9,7 @@ export const load: PageLoad = async () => {
         error(404);
     }
     return {
+        section: "Topics",
         component: doc.default,
         metadata: doc.metadata,
         title: doc.metadata.title,

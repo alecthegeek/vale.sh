@@ -77,8 +77,8 @@ word character and a non-word character.
 For example, the regex `\bfoo\b` will only match the word "foo" and not
 "foobar" or "foo-bar".
 
-By default, [`existence`](/docs/ext/existence) and
-[`substitution`](/docs/ext/substitution) rules in Vale will automatically add
+By default, [`existence`](/docs/checks/existence) and
+[`substitution`](/docs/checks/substitution) rules in Vale will automatically add
 word boundaries to the beginning and end of each token.
 
 To disable this behavior, set `nonword` to `true`:
