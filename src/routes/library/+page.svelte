@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Rocket from 'svelte-radix/Rocket.svelte';
-	import Code from 'svelte-radix/Code.svelte';
+	import { MetaTags } from 'svelte-meta-tags';
 	import { Badge } from '$lib/components/ui/badge';
 	import * as Popover from '$lib/components/ui/popover';
 	import { onMount } from 'svelte';
@@ -92,6 +92,26 @@
 		});
 	});
 </script>
+
+<MetaTags
+	title="Media Library"
+	description="The Media Library is a collection of videos, articles, and other resources related to Vale and its ecosystem."
+	canonical="https://vale.sh"
+	openGraph={{
+		url: 'https://vale.sh',
+		title: 'Vale: Your style, our editor',
+		description:
+			'Vale is a command-line tool that brings code-like linting to prose. Vale is cross-platform (Windows, macOS, and Linux), written in Go, and available on GitHub.',
+		images: [
+			{
+				url: 'https://camo.githubusercontent.com/380138e374b8196f243f2621e74196ae92a7aba08bc3d2125bf09824238de1f7/68747470733a2f2f76616c652e73682f696d616765732f76616c652f6d61632e706e67',
+				width: 800,
+				height: 600,
+				alt: 'Example Vale output'
+			}
+		]
+	}}
+/>
 
 <svelte:head>
 	<link
