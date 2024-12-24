@@ -282,6 +282,26 @@ export const docsConfig: DocsConfig = {
             ],
         },
         {
+            title: "Guides",
+            items: [
+                {
+                    title: "LSP",
+                    href: "/docs/guides/lsp",
+                    items: [],
+                },
+                {
+                    title: "Regex",
+                    href: "/docs/guides/regex",
+                    items: [],
+                },
+                {
+                    title: "Globs",
+                    href: "/docs/guides/glob",
+                    items: [],
+                },
+            ],
+        },
+        {
             title: "Integrations",
             items: [
                 {
@@ -359,26 +379,6 @@ export const docsConfig: DocsConfig = {
                     title: "Zed",
                     href: "https://github.com/koozz/zed-vale",
                     external: true,
-                    items: [],
-                },
-            ],
-        },
-        {
-            title: "Guides",
-            items: [
-                {
-                    title: "LSP",
-                    href: "/docs/guides/lsp",
-                    items: [],
-                },
-                {
-                    title: "Regex",
-                    href: "/docs/guides/regex",
-                    items: [],
-                },
-                {
-                    title: "Globs",
-                    href: "/docs/guides/glob",
                     items: [],
                 },
             ],
