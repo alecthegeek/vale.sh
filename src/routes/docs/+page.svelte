@@ -17,7 +17,7 @@
 </script>
 
 <MetaTags
-	title="Vale: Introduction"
+	title="Vale - Introduction"
 	description="Learn about what Vale is (and isn't)."
 	canonical="https://vale.sh"
 	openGraph={{

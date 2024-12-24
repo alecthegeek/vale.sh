@@ -14,7 +14,7 @@
 </script>
 
 <MetaTags
-	title={doc.title}
+	title="Vale - {doc.title}"
 	description={doc.description}
 	canonical="https://vale.sh"
 	openGraph={{
