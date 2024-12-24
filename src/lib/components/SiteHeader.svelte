@@ -1,22 +1,12 @@
 <script lang="ts">
 	import Banner from '$lib/components/Banner.svelte';
+	import DocSearch from '$lib/components/DocSearch.svelte';
 	import ModeToggle from '$lib/components/ModeToggle.svelte';
 	import { MainNav, MobileNav } from '$lib/components/nav';
 	import { Icons } from '$lib/components/icons';
 	import { buttonVariants } from '$lib/components/ui/button';
 	import { siteConfig } from '$lib/config/site.js';
 	import { cn } from '$lib/utils.js';
-	import docsearch from '@docsearch/js';
-	import { onMount } from 'svelte';
-
-	onMount(() => {
-		docsearch({
-			container: '#docsearch',
-			appId: '2Y8OU39U1X',
-			indexName: 'docsearch_mock',
-			apiKey: '0e82d6007f06d9f280629a37bb8a0892'
-		});
-	});
 </script>
 
 <header
@@ -28,7 +18,7 @@
 		<MobileNav />
 		<div class="flex flex-1 items-center justify-between space-x-2 md:justify-end">
 			<div class="w-full flex-1 md:w-auto md:flex-none">
-				<div id="docsearch"></div>
+				<DocSearch />
 			</div>
 			<nav class="flex items-center">
 				<a href={siteConfig.links.github} target="_blank" rel="noopener noreferrer">
