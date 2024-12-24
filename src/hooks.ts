@@ -48,7 +48,7 @@ export const handle: Handle = async ({ event, resolve }) => {
     const { pathname, search, hash } = new URL(event.request.url);
 
     let given = pathname;
-    if (pathname.slice(-1) === '/') {
+    if (pathname.slice(-1) === '/' && pathname.length > 1) {
         given = pathname.slice(0, -1);
     }
 
