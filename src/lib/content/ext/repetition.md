@@ -32,4 +32,4 @@ almost any instance of a repeated word, including across markup boundaries:
 See the Mermaid [Mermaid user guide][1].
 ```
 
-[1]: /docs/ext/repetition
+[1]: /docs/styles#vale
