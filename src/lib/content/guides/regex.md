@@ -1,6 +1,6 @@
 ---
-title: Regular Expressions
-description: Learn how to use regular expressions in Vale.
+title: Regex
+description: Learn how to use regex in Vale.
 ---
 
 Vale uses the [`regexp2`][1] library to process regular expressions in its
