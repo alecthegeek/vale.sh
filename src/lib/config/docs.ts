@@ -335,8 +335,8 @@ export const docsConfig: DocsConfig = {
                 },
                 {
                     title: "JetBrains",
-                    href: "/docs/integrations/jetbrains",
-                    external: false,
+                    href: "https://plugins.jetbrains.com/plugin/19613-vale-cli/docs",
+                    external: true,
                     items: [],
                 },
                 {
