@@ -5,6 +5,8 @@ const migrated: Record<string, string> = {
     // Package Hub is now combined with the Explorer:
     '/hub': '/explorer',
 
+    '/docs/integrations/sublime-text': '/docs/guides/lsp',
+
     '/docs/vale-cli': '/docs',
 
     '/docs/vale-cli/installation': '/docs/install',
