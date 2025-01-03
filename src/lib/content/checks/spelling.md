@@ -53,7 +53,7 @@ Vale comes with a set of built-in filters, as described in the table below:
 | Filter                    | Description                            |
 | ------------------------- | -------------------------------------- |
 | `[A-Z]{1}[a-z]+[A-Z]+\w+` | Mixed-cased words (such as "MongoDB"). |
-| `[^a-zA-Z_']`             | Non-word tokens (such as numbers).     |
+| `[^a-zA-Z_']`             | Words containing non-word tokens (such as numbers).     |
 | `[A-Z]+$`                 | Upper-cased words.                     |
 
 You can also choose define you own filters either with or without the built-in
