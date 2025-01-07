@@ -6,6 +6,7 @@ const migrated: Record<string, string> = {
     '/hub': '/explorer',
 
     '/docs/integrations/sublime-text': '/docs/guides/lsp',
+    '/docs/integrations/guide': '/docs/guides/lsp',
 
     '/docs/vale-cli': '/docs',
 
