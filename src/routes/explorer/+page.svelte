@@ -47,7 +47,7 @@
 			</div>
 			<Alert level="info">
 				Check out the <a
-					href="https://github.com/topics/vale-style"
+					href="https://github.com/topics/vale-linter-style"
 					class="underline"
 					target="_blank">vale-style</a
 				> tag on GitHub for more packages and configurations.
