@@ -39,7 +39,7 @@
 					<Tabs.Trigger value="podcasts" disabled>Rules</Tabs.Trigger>
 				</Tabs.List>
 				<div class="ml-auto mr-4">
-					<Button onclick={() => window.open(addURL, '_blank')}>
+					<Button variant="outline" onclick={() => window.open(addURL, '_blank')}>
 						<PlusCircled class="mr-2 h-4 w-4" />
 						Add your own
 					</Button>
