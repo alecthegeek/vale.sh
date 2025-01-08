@@ -17,7 +17,7 @@
 			description: `Enforces the current project's rejected <a href="/docs/keys/vocab">Vocabulary</a> terms.`
 		},
 		{
-			name: 'Vale.Repitition',
+			name: 'Vale.Repetition',
 			description: `Flags repeated words such as "the the" or "and and".`
 		}
 	];
