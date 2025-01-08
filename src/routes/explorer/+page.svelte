@@ -5,6 +5,7 @@
 	import { Separator } from '$lib/components/ui/separator';
 	import * as Tabs from '$lib/components/ui/tabs';
 	import ResourceList from '$lib/components/docs/ResourceList.svelte';
+	import Alert from '$lib/components/Alert.svelte';
 
 	const addURL = `https://github.com/errata-ai/vale.sh/tree/svelte?tab=readme-ov-file#packages--configurations`;
 </script>
@@ -44,8 +45,15 @@
 					</Button>
 				</div>
 			</div>
+			<Alert level="info">
+				Check out the <a
+					href="https://github.com/topics/vale-style"
+					class="underline"
+					target="_blank">vale-style</a
+				> tag on GitHub for more packages and configurations.
+			</Alert>
 			<Tabs.Content value="music" class="border-none p-0 outline-none">
-				<div class="mx-auto max-w-7xl py-6">
+				<div class="mx-auto max-w-7xl">
 					<ResourceList />
 				</div>
 			</Tabs.Content>
